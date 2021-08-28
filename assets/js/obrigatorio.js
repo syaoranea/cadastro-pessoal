@@ -15,12 +15,12 @@ function obrigatorionome(){
 function obrigatoriorua(){
     var container = document.getElementById("logradouro");
     var container2 = document.getElementById("clogradouro");
-    if(container.innerText == ""){
+    if(container.value == ""){
         container2.innerText = "Não pode deixar campo de endereço vazio";
         container.style.border = "1px solid #f20909";
     }else{
         container.style.border = "1px solid #89837F";
-        container.innerText = "";
+        container2.innerText = "";
         return TRUE;
     }
 }
@@ -28,12 +28,12 @@ function obrigatoriorua(){
 function obrigatorionum(){
     var container = document.getElementById("numero");
     var container2 = document.getElementById("cnumero");
-    if(container.innerText == ""){
+    if(container.value == ""){
         container2.innerText = "O campo de numero é obrigatorio";
         container.style.border = "1px solid #f20909";
     }else{
         container.style.border = "1px solid #89837F";
-        container.innerText = "";
+        container2.innerText = "";
         return TRUE;
     }
 }
@@ -41,12 +41,12 @@ function obrigatorionum(){
 function obrigatoriocel(){
     var container = document.getElementById("celular");
     var container2 = document.getElementById("ccelular");
-    if(container.innerText == ""){
+    if(container.value == ""){
         container2.innerText = "O campo de celular é obrigatorio";
         container.style.border = "1px solid #f20909";
     }else{
         container.style.border = "1px solid #89837F";
-        container.innerText = "";
+        container2.innerText = "";
         return TRUE;
     }
 }
