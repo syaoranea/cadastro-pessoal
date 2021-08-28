@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+}
+
+.container-esquerdo{
+    background-color: #ef761b;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 62vw;
+}
+
+.container-direito{
+    width: 38vw;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 16vh;
+}
+
+header a{
+    font-size: 54px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #EC7000;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    padding: 0 10% 0 10%;
+}
+
+.input-field{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 65px;
+    border: 1px solid #89837F;
+}
+
+.input-field input{
+    border: none;
+    outline: none;
+    background: #ffffff;
+    width: 100%;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 35px 35px 35px 35px;  
+  }
+
+  form button{
+    height: 55px;
+    background-color: #447ce2;
+    border: none;
+    border-radius: 10px;
+    color: #def7f4;
+    outline: none;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  form button:hover{
+    background-color: #3f72d1;
+    transition: .3s;
+  }
+
+.container-esquerdo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-esquerdo img{
+      width: 512px;
+      height: 512px;
+}
+
+@media (max-width: 849px) {
+    .container-esquerdo{
+        display: none;
+    }
+    .container-direito{
+        width: 720px;
+        margin-left: 40px;
+    }
+}
+

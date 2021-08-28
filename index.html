@@ -11,10 +11,10 @@
     <main>
         <h1>Cadastro Pessoal</h1>
         <h2>Faça-nos um cadastro pessoal para abrir uma conta pessoal</h2>
-        <form action="" method="POST">
+        <form action="assets/php/cadastrardados.php" method="POST">
             <div class="campos">
                 <label>Nome Completo*</label>
-                <input class="campo col-1" onblur="obrigatorionome()" type="text" name="nome" id="nome">
+                <input class="campo col-1" onblur="obrigatorionome()" type="text" name="nome" id="nome" required>
                 <span id="cnome"></span>
             </div>
             <div class="campos">
@@ -36,12 +36,12 @@
             </div>
             <div class="campos">
                 <label>Endereço*</label>
-                <input class="campo col-2 sp-15" onblur="obrigatoriorua()" type="text" name="logradouro" id="logradouro">
+                <input class="campo col-2 sp-15" onblur="obrigatoriorua()" type="text" name="logradouro" id="logradouro" required>
                 <span id="clogradouro"></span>
             </div>
             <div class="campos">
                 <label>Numero*</label>
-                <input class="campo col-3" onblur="obrigatorionum()" type="text" name="numero" id="numero">
+                <input class="campo col-3" onblur="obrigatorionum()" type="text" name="numero" id="numero" required>
                 <span id="cnumero"></span>
             </div>
             <div class="campos">
@@ -95,7 +95,7 @@
             </div>
             <div class="campos">
                 <label>Celular*</label>
-                <input class="campo col-12" onblur="obrigatoriocel()" type="text" name="celular" id="celular">
+                <input class="campo col-12" onblur="obrigatoriocel()" type="text" name="celular" id="celular" required>
                 <span id="ccelular"></span>
             </div>
             <button>

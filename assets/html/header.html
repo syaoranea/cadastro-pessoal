@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Controle</title>
+    <link rel="stylesheet" href="style-painel.css">
+</head>
+<body>
+    <header>
+        <nav id="painel">
+            <a href="" class="logo">Painel<br/>Administrativo</a>
+            <div class="mobile-menu">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+          <ul class="nav-list">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Usuarios</a></li>
+            <li><a href="#">Clientes</a></li>
+            <li><a href="logout.php">Sair</a><br/></li>
+          </ul>
+        </nav>
+        <div class="login">
+            <ul class="login-list">
+                <li><span>Olá <?php echo $nome; ?>, seja bem vindo! </span></li>
+            </ul>
+        </div>
+      </header>
+
+      <main>
+        <div class="tb">
+            <h3>Cadastrar Usuario</h3>
+            <form action="" method="post">
+              <div class="input-field">
+                  <input id="name" type="text"  placeholder="Nome Completo" required>
+                  <label for="name">Nome Completo</label>
+              </div>
+              <div class="input-field">
+                  <input id="email" type="text"  placeholder="Email">
+                  <label for="email">Email</label> 
+              </div>
+              <div class="input-field">
+                <input id="perfil" type="number"  placeholder="Perfil">
+                <label for="perfil">Perfil</label> 
+                <button type="submit"></button>
+            </div>
+            </form>    
+        </div>
+    </main>
+
+
+
+
+      <main>
+          <div class="tb">
+              <h3>Usuarios</h3>
+              <table>
+                  <thead>
+                      <tr>
+                          <th>Nome</th>
+                          <th>Email</th>
+                          <th>Senha</th>
+                          <th>Perfil</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Eduardo</td>
+                      <td>Eduardo_rocha87@hotmail.com</td>
+                      <td>123</td>
+                      <td>Administrador</td>
+                    </tr>
+                  </tbody>
+              </table>
+          </div>
+      </main>
