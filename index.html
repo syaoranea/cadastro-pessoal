@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Inscrição</title>
+</head>
+<body>
+    <main>
+        <h1>Cadastro Pessoal</h1>
+        <h2>Faça-nos um cadastro pessoal para abrir uma conta pessoal</h2>
+        <form action="" method="POST">
+            <div class="campos">
+                <label>Nome Completo*</label>
+                <input class="campo col-1" onblur="obrigatorionome()" type="text" name="nome" id="nome">
+                <span id="cnome"></span>
+            </div>
+            <div class="campos">
+                <label>CPF*</label>
+                <input class="campo col-3 sp-15" onblur="valida_cpf()" type="text" name="cpf" id="cpf">
+                <span id="ccpf"></span>
+            </div>
+            <div class="campos">
+                <label>RG</label>
+                <input class="campo col-3 sp-15" type="text" name="rg" id="rg">
+            </div>
+            <div class="campos">
+                <label>Sexo</label>
+                <select class="campo col-3" name="sexo" id="sexo" >
+                <option value="selecione">Selecione</option>
+                <option value="AC">Feminino</option>
+                <option value="AL">Masculino</option>
+                </select>
+            </div>
+            <div class="campos">
+                <label>Endereço*</label>
+                <input class="campo col-2 sp-15" onblur="obrigatoriorua()" type="text" name="logradouro" id="logradouro">
+                <span id="clogradouro"></span>
+            </div>
+            <div class="campos">
+                <label>Numero*</label>
+                <input class="campo col-3" onblur="obrigatorionum()" type="text" name="numero" id="numero">
+                <span id="cnumero"></span>
+            </div>
+            <div class="campos">
+                <label>Bairro</label>
+                <input class="campo col-1" type="text" name="bairro" id="bairro">
+            </div>
+            <div class="campos">
+                <label>Cidade</label>
+                <input class="campo col-3 sp-15" type="text" name="localidade" id="localidade">
+            </div>
+            <div class="campos">
+                <label>Estado</label>
+                <select class="campo col-3 sp-15" name="uf" id="uf" >
+                <option value="selecione">Selecione</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+              </select>
+            </div>
+            <div class="campos">
+                <label>Cep</label>
+                <input class="campo col-3" type="text" name="cep" id="cep">
+            </div>
+            <div class="campos">
+                <label>Telefone Fixo</label>
+                <input class="campo col-12 sp-15" type="text" name="fixo" id="fixo">
+            </div>
+            <div class="campos">
+                <label>Celular*</label>
+                <input class="campo col-12" onblur="obrigatoriocel()" type="text" name="celular" id="celular">
+                <span id="ccelular"></span>
+            </div>
+            <button>
+                Enviar
+            </button>
+        </form>
+    </main>
+    <script src="assets/js/cep.js"></script>
+    <script src="assets/js/validacao_cpf.js"></script>
+    <script src="assets/js/obrigatorio.js"></script>
+</body>
+</html>
