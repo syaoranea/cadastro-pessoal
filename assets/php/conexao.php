@@ -2,7 +2,7 @@
 
 session_start();
 
- $localhost = "sql533.main-hosting.eu";
+ $localhost = "127.0.0.1:3306";
  $user = "u242587662_edu";
  $passw ="eduKv@123";
  $banco = "u242587662_itautech";
