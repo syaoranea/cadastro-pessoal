@@ -64,11 +64,13 @@ h1{
     font-size: 28px;
     color: #EC7000;
     margin: auto;
+    width: 800px;
+    text-align: center;
 }
 
 h2{
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 21px;
+    font-size: 19px;
     color: #000;
     margin:auto;
 }
