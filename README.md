@@ -6,7 +6,7 @@
 
 <p style="text-align: center">
  <a href="https://www.linkedin.com/in/eduardo-rocha-25870a1a6/">
-  <img alt="Linkedin" src="assets/images/linkedin.png" height="64px" />
+  <img alt="Linkedin" src="assets/images/linkedin.png" height="44px" />
  </a>
 </p>
 
@@ -44,3 +44,8 @@ Visual Studio Code e Xampp
 - JavaScript
 - PHP
 - SQL
+
+### Referências
+
+• Validação de CEP pelo ViaCEP
+• Validação de CPF
