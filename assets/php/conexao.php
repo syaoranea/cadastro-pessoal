@@ -4,7 +4,7 @@ session_start();
 
  $localhost = "localhost";
  $user = "u242587662_edu";
- $passw ="eduKv@123";
+ $passw ="eduKv@1234";
  $banco = "u242587662_itautech";
 
  global $pdo;
@@ -15,6 +15,6 @@ session_start();
 
  }catch(PDOException $e){
      echo "Erro: ".$e->getMessage();
-     exit;
+     
  }
 ?>
