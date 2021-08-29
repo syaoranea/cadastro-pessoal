@@ -4,7 +4,7 @@ function obrigatorionome(){
     if(container.value == ""){
         container.style.border = "1px solid #f20909";
         container2.innerText = "Não pode deixar campo de nome vazio";
-        
+        return false;
     }else{
         container.style.border = "1px solid #89837F";
         container2.innerText = "";
@@ -18,6 +18,7 @@ function obrigatoriorua(){
     if(container.value == ""){
         container2.innerText = "Não pode deixar campo de endereço vazio";
         container.style.border = "1px solid #f20909";
+        return false;
     }else{
         container.style.border = "1px solid #89837F";
         container2.innerText = "";
@@ -31,6 +32,7 @@ function obrigatorionum(){
     if(container.value == ""){
         container2.innerText = "O campo de numero é obrigatorio";
         container.style.border = "1px solid #f20909";
+        return false;
     }else{
         container.style.border = "1px solid #89837F";
         container2.innerText = "";
@@ -44,6 +46,7 @@ function obrigatoriocel(){
     if(container.value == ""){
         container2.innerText = "O campo de celular é obrigatorio";
         container.style.border = "1px solid #f20909";
+        return false;
     }else{
         container.style.border = "1px solid #89837F";
         container2.innerText = "";
