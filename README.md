@@ -25,9 +25,9 @@
 
 ### Descrição
 
-Bacharelado em Analise e desenvolvimento de sistema pela UNICSUL e estudante de pós-graduação em ciência de dados na Estacio. Trabalho a 6 anos na empresa E3M3 Web Store na Administração e no atendimento ao cliente. 
+Bacharelado em Analise e desenvolvimento de sistema pela UNICSUL e estudante de pós-graduação em ciência de dados na Estacio. Cursei 3 semestre no curso de contabilidade. Trabalho a 6 anos na empresa E3M3 Web Store na area Administrativa.. 
 
-Quem me influenciou e motivou a ter paixão pela area da tecnologia foi meu primeiro contato com E-P-S, aos 8 anos ter ganhado um video game onde o computador respondia a meus comandos. 
+Quem me influenciou e motivou minha paixão pela area da tecnologia foi meu primeiro contato com E-P-S, aos 8 anos ter ganhado um video game onde o computador respondia a meus comandos. 
 
 ### Objetivo:
 
