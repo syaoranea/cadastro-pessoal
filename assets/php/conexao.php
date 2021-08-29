@@ -4,7 +4,7 @@ session_start();
 
  $localhost = "localhost";
  $user = "u242587662_edu";
- $passw ="eduKv@1234";
+ $passw ="eduKv@123";
  $banco = "u242587662_itautech";
 
  global $pdo;
