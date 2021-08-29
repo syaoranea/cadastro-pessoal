@@ -19,9 +19,13 @@ if(isset($_POST['bt-cadastrar'])){
     $fixo = addslashes($_POST['fixo']);
     $celular = addslashes($_POST['celular']);
 
+    try{
     if($c->cadastrar($nome, $cpf, $rg, $sexo, $endereco, $numero, $bairro, $cidade, $estado, $cep, $fixo, $celular) == true){
 
         header("Location: ../../sucesso.html");
+    }
+    }catch(PDOException $e){
+    echo "Erro: ".$e->getMessage();
     }
 
 
