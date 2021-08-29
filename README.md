@@ -47,5 +47,5 @@ Visual Studio Code e Xampp
 
 ### Referências
 
-• Validação de CEP pelo ViaCEP
-• Validação de CPF
+- Validação de CEP pelo ViaCEP
+- Validação de CPF
