@@ -17,7 +17,7 @@ function mascara_rg(){
 }
 
 function mascara_fixo(){
-    var telefone = document.getElementById('telefone')
+    var telefone = document.getElementById('fixo')
     if(telefone.value.length == 2 || telefone.value.length == 7){
         telefone.value += "-"
     }
