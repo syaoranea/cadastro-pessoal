@@ -187,6 +187,7 @@ footer{
   footer li a{
     color: rgb(204, 204, 204);
     font-size: 18px;
+    font-style: none;
   }
 
 

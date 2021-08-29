@@ -2,10 +2,10 @@
 
 session_start();
 
- $localhost = "localhost";
- $user = "root";
- $passw ="";
- $banco = "itautech";
+ $localhost = "156.67.72.234";
+ $user = "u242587662_edu";
+ $passw ="eduKv@123";
+ $banco = "u242587662_itautech";
 
  global $pdo;
  
