@@ -2,7 +2,7 @@
 
 session_start();
 
- $localhost = "127.0.0.1:3306";
+ $localhost = "localhost";
  $user = "u242587662_edu";
  $passw ="eduKv@123";
  $banco = "u242587662_itautech";
