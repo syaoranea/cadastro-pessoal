@@ -48,7 +48,6 @@ main form{
 
 .campo:hover{
     border: 1px solid #EC7000;
-    transition: 0.5s;
 }
 
 .campos label{
